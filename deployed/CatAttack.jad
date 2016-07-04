@@ -1,0 +1,9 @@
+MIDlet-Jar-Size: 37050
+MIDlet-1: SheepdogMIDlet, /icon.png, SheepdogMIDlet
+MIDlet-Jar-URL: CatAttack.jar
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Version: 0.0.3
+MIDlet-Name: Cat Attack
+MIDlet-Description: Cat Attack Game
+MIDlet-Vendor: Nokia
+MicroEdition-Profile: MIDP-2.0

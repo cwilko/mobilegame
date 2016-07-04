@@ -1,0 +1,36 @@
+
+This utility can be used to reverse assemble code. Many program license
+agreements do not permit reverse assembly. If you are not the copyright
+owner of the code which you want to reverse assemble, please check the
+license agreement under which you acquired such code to confirm whether
+you are permitted to perform such reverse assembly.
+
+Compiled from Test.java
+public class Test extends java.lang.Object {
+    public static void main(java.lang.String[]);
+    Test();
+    public void poo();
+}
+
+Method void main(java.lang.String[])
+   0 return
+
+Method Test()
+   0 aload_0
+   1 invokespecial #1 <Method java.lang.Object()>
+   4 aload_0
+   5 iconst_4
+   6 putfield #2 <Field int x>
+   9 aload_0
+  10 iconst_5
+  11 putfield #3 <Field int y>
+  14 return
+
+Method void poo()
+   0 aload_0
+   1 getfield #2 <Field int x>
+   4 aload_0
+   5 getfield #3 <Field int y>
+   8 iadd
+   9 istore_1
+  10 return
