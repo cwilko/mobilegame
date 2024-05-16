@@ -42,4 +42,15 @@
 		<nature>com.ibm.etools.ctc.javaprojectnature</nature>
 		<nature>com.ibm.ws.rasplugin.RASValidationNature</nature>
 	</natures>
+	<filteredResources>
+		<filter>
+			<id>1687612697469</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 </projectDescription>
